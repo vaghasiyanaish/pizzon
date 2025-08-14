@@ -1,6 +1,7 @@
 
 
 import './App.css'
+import Footer from './Footer'
 import Shopdetailbanner from './Shopbanner'
 import Shopdetailcard from './Shopdetailcard'
 import Shopdetailsslider from './shopdetailsslider'
@@ -29,6 +30,7 @@ function App() {
           </div>
         </div>  
       </div>
+      <Footer/>
     </>
   )
 }
