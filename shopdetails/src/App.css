@@ -1,0 +1,71 @@
+
+/* Shoplist */
+
+/* Shopbanner */
+
+.shop-banner{
+  background-color: #fffaed;
+  padding-left: 60px;
+  padding-top:80px;
+  padding-bottom:80px;
+  height:570px;
+  width:100%;
+}
+
+.shop-banner-left h1{
+  font-size:65px;
+  padding-top: 100px;
+}
+
+.shop-banner-left p{
+  font-size: 28px;
+  line-height: 44px;
+  padding-top: 20px;
+  color:#777777;
+}
+
+.shop-banner-right{
+  text-align:right;
+}
+.shop-banner-right h3{
+  padding-top: 180px;
+  font-size: 25px;
+  padding-right:70px;
+}
+.shop-banner-right h3 a{
+  color:#777777;
+  text-decoration: none;
+}
+.shop-image-1{
+  position: absolute;
+  top: 100px;
+  left: 80px;
+}
+.shop-image-2{
+  position: absolute;
+  top: -30px;
+  right: 0px;
+}
+.shop-image-3{
+  position: absolute;
+  top:350px;
+  right: 0px;
+}
+/* shop-list */
+
+.shop-list{
+  margin-top:50px;
+}
+.shop-list-right a{
+  padding:10px 30px;
+  background-color: #ffb700;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.our-story .stort-img1{
+  width: 650px;
+  height: 550px;
+}
+
