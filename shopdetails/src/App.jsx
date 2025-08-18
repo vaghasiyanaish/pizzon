@@ -18,13 +18,13 @@ function App() {
         <div className="container">
           <div className="row">
             <h2 className='fs-1 fw-bold my-5'>Related Products</h2>
-            <div className="col-4">
+            <div className="col-lg-4 col-md-6 col-sm-12">
               <Shopdetailcard foodimage="https://themes.templatescoder.com/pizzon/html/demo/1-2/01-Modern/images/item-1.jpg" foodname="Shrimp foods" foodprice="$15.00"/>
             </div>
-            <div className="col-4">
+            <div className="col-lg-4 col-md-6 col-sm-12">
               <Shopdetailcard foodimage="https://themes.templatescoder.com/pizzon/html/demo/1-2/01-Modern/images/item-2.jpg" foodname="French mayos" foodprice="$65.00"/>
             </div>
-            <div className="col-4">
+            <div className="col-lg-4 col-md-6 col-sm-12">
               <Shopdetailcard foodimage="https://themes.templatescoder.com/pizzon/html/demo/1-2/01-Modern/images/item-3.jpg" foodname="Cheese pizza" foodprice="$45.00"/>
             </div>    
           </div>

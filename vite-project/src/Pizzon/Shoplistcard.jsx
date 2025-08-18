@@ -2,7 +2,7 @@
 
 function Shoplistcard({ foodname, foodimage, foodprice }) {
     return (
-        <div className="shop-list-card-item border rounded-4 p-3 mb-5">
+        <div className="shop-list-card-item border rounded-4 p-3 mb-5 p-sm-5">
             <img src={foodimage} alt={foodname} className="img-fluid" />
             <div className="mt-2 d-flex align-items-center justify-content-between">
                 <a href="#" className="text-decoration-none text-dark">

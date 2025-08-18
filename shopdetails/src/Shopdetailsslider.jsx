@@ -5,7 +5,7 @@ function Shopdetailsslider()   {
         <div className="shop-detail mt-5">
             <div className="Container">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-lg-6 col-sm-12 col-xs-12">
                         <div className="shop-detail-slider">
                             <div className="col-md-6">
                                 <div className="our-story-imgs">
@@ -14,7 +14,7 @@ function Shopdetailsslider()   {
                             </div>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-lg-6 col-sm-12 col-xs-12">
                         <div className="shop-detail-content p-3">
                             <h2 className="fs-1 mb-0" style={{fontWeight: "600"}}>Shrimp Pizza</h2>
                             <div className="row">
