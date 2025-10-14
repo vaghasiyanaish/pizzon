@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { Link, useNavigate } from 'react-router-dom'
-import { Modal, Button, Form, Badge, Carousel, Alert } from 'react-bootstrap'
+import { Modal, Button, Form, Badge , Alert } from 'react-bootstrap'
 import {
   getProducts,
   setCategoryFilter,
@@ -27,12 +27,7 @@ import {
   FaFootballBall
 } from 'react-icons/fa'
 import './Home.css'
-import banner1 from '../../assets/banner1.jpg';
-import banner2 from '../../assets/banner2.jpg';
-import banner3 from '../../assets/banner3.jpg';
-import banner4 from '../../assets/banner4.jpg';
-import banner5 from '../../assets/banner5.jpg';
-import banner6 from '../../assets/banner6.jpg';
+
 
 const Home = () => {
   const dispatch = useDispatch()
@@ -73,16 +68,9 @@ const Home = () => {
   const [showAlert, setShowAlert] = useState({ show: false, message: '', type: '' })
   const [quantity, setQuantity] = useState(1)
 
-  // Sample product images for fallback
+ 
   const sampleProductImages = [
-    // 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop', // Electronics
-    // 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop', // Fashion
-    // 'https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=500&h=500&fit=crop', // Home
-    // 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=500&h=500&fit=crop', // Appliances
-    // 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500&h=500&fit=crop', // Books
-    // 'https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?w=500&h=500&fit=crop', // Toys
-    // 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=500&h=500&fit=crop', // Beauty
-    // 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=500&fit=crop'  // Sports
+    
   ]
 
   useEffect(() => {
@@ -90,12 +78,12 @@ const Home = () => {
   }, [dispatch])
 
   const getProductImage = (product, index = 0) => {
-  // If product has a valid image (URL or base64), use it
+ 
   if (product?.image) {
     return product.image;
   }
 
-  // Otherwise use category-based fallback images
+ 
   const categoryImages = {
     electronics: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop',
     fashion: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop',
@@ -264,14 +252,7 @@ const Home = () => {
   const topDeals = filteredProducts.slice(0, 6)
   const fashionDeals = filteredProducts.filter(p => p.category === 'fashion').slice(0, 4)
 
-  const heroCarouselData = [
-    { image: banner1 },
-    { image: banner2 },
-    { image: banner3 },
-    { image: banner4 },
-    { image: banner5 },
-    { image: banner6 }
-  ];
+  
 
   return (
     <div className="home-container">
@@ -284,19 +265,7 @@ const Home = () => {
         </Alert>
       )}
 
-      {/* Hero Carousel */}
-      <Carousel fade controls indicators className="hero-carousel mb-4">
-        {heroCarouselData.map((slide, index) => (
-          <Carousel.Item key={index}>
-            <img
-              src={slide.image}
-              alt={`Slide ${index + 1}`}
-              className="d-block w-100"
-              style={{ height: '500px', objectFit: 'cover' }}
-            />
-          </Carousel.Item>
-        ))}
-      </Carousel>
+      
 
       {/* Categories Bar */}
       <div className="categories-bar py-3">
