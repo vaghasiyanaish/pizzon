@@ -7,7 +7,7 @@ const Checkout = () => {
   const navigate = useNavigate()
   const { product, quantity, cartItems } = location.state || {}
 
-  // For single product (Buy Now)
+ 
   const items = cartItems || (product ? [{ ...product, quantity }] : [])
 
   if (items.length === 0) {
