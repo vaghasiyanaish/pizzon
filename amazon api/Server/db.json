@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": "44bd"
+    },
+    {
+      "id": "55c6",
+      "title": "Active Wash Detergent Powder",
+      "price": 359,
+      "originalPrice": 800,
+      "description": "Amazon Brand - Presto! Active Wash Detergent Powder | 8 Kg | Tough On Stains | Gentle On Fabrics | Colour-Safe | Refreshing Fragrance | Machine And Hand Wash",
+      "category": "fashion",
+      "brand": "Hand Wash",
+      "image": "https://m.media-amazon.com/images/I/61hx-ExBRhL._SX679_.jpg",
+      "inStock": true,
+      "features": [
+        "Modern athletic fit"
+      ],
+      "specifications": {
+        "Material": "100% Cotton",
+        "Color": "White",
+        "Weight": "450g",
+        "Dimensions": ""
+      },
+      "rating": {
+        "rate": 4,
+        "count": 149
+      }
+    },
+    {
+      "id": "a765",
+      "title": "Samsung Galaxy S24 Ultra",
+      "price": 79999,
+      "originalPrice": 134999,
+      "description": "Galaxy AI - Welcome to the era of mobile AI. With Galaxy S24 Ultra and One UI in your hands, you can unleash completely new levels of creativity, productivity and possibility.\nTitanium Frame - Meet Galaxy S24 Ultra, the ultimate form of Galaxy Ultra built with a new titanium exterior and a 17.25cm flat display. It is an absolute marvel of design.\nEpic Camera - With the most megapixels on a Galaxy smartphone ever (200MP) and AI processing, Galaxy S24 Ultra sets the industry standard for image quality every time you hit the shutter. Also, the new ProVisual engine recognizes objects, improves color tone, reduces noise and brings out every detail.\nPowerful Processor - Victory can be yours with the new Snapdragon 8 Gen 3 for Galaxy that gives you the power you need for all the gameplay you want. backed by an intelligent battery that keep you going longer. Also, you get to manifest graphic effects in real time with ray tracing for hyper-realistic shadows and reflections.\nBuilt-in S Pen and Security - Experience seamless control and creativity, as the S Pen transforms your device into a versatile tool for productivity and artistry. While Knox protection and Samsung Wallet keep your data and payments safe.",
+      "category": "electronics",
+      "brand": "Samsung ",
+      "image": "https://m.media-amazon.com/images/I/717Q2swzhBL._SX679_.jpg",
+      "inStock": true,
+      "features": [],
+      "specifications": {
+        "Material": "",
+        "Color": "Black , Grey",
+        "Weight": "",
+        "Dimensions": ""
+      },
+      "rating": {
+        "rate": 4.5,
+        "count": 150
+      }
+    }
+  ]
+}
