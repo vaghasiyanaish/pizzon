@@ -1,0 +1,14 @@
+
+
+.success-card h2 {
+  font-family: 'Georgia', serif;
+}
+
+.success-card .btn {
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.success-card .btn:hover {
+  background-color: #97761e !important;
+}
